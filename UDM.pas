@@ -1,57 +1,3 @@
-// 01/11/2010 09:42 147869 ROBSON.SILVA  Homologação - Elegibilidade
-// 14/10/2010 11:09 146807 Eduardo.Fernandes  AUTORIZAÇÃO - ERRO GERAR DIÁRIAS DE INTERNAÇÃO
-// 12/08/2010 15:35 142301 Eduardo.Fernandes  Retirada componente obsoleto ParamGeral
-// 06/05/2010 15:46 135553 EVANDRO.ZEFERINO  Problema na parametrização de evento no prestador 0511.
-// 27/04/2010 16:27 134853 EVANDRO.ZEFERINO  Defeito na impressão da autorização.
-// 13/04/2010 13:43 133864 Walberti  Geração de diárias em evento incorreto
-// 29/09/2009 11:08 115727 GABRIEL.SILVA  Considerar a tabela de preço na geração da Diária da autorização
-// 15/09/2009 11:29 121013 Mochi  Mensagem ao salvar registro nos Filtros
-// 25/08/2009 12:03 119910 Walberti  PRODUCAO - Data de validade da autorizacao inferior a do evento gerado
-// 25/08/2009 11:58 119805 PAULO.MELO  Novo parametro no Tipo de autorização - Herdar para diárias e prorrogação
-// 11/08/2009 17:04 112942 GABRIEL.SILVA  [Item 5.2.2.4] Regras para Perícia nas Guias Odontológicas
-// 04/08/2009 11:27 118594 Walberti  Calculo de validade diferente do calculo de tratamento seriado quando periodicidade quinzenal (SMS 114615)
-// 24/07/2009 17:01 118140 Walberti  AUTORIZAÇÃO - ERRO AO REVERTER EVENTO
-// 26/06/2009 18:20 116702 GABRIEL.SILVA  Autorização - Alteração de % de pagamento incorretamente no momento da reversão do evento/grau
-// 25/06/2009 14:41 116702 GABRIEL.SILVA  Autorização - Alteração de % de pagamento incorretamente no momento da reversão do evento/grau
-// 23/06/2009 09:03 116353 GABRIEL.SILVA  Erro ao gerar diárias em uma autorização.
-// 09/06/2009 14:26 115885 PAULO.MELO  ATENDIMENTO - GUIA DE SOLICITAÇÃO DE INTERNAÇÃO NA IMPRIME QTDE DE DIÁRIOS E NEM O TIPO DE ACOMODAÇÃO
-// 29/05/2009 10:52 115306 Eduardo.Fernandes  Autorização - Sistema não gera Acomodação correta a partir da segunda Prorrogação (113409)
-// 27/05/2009 16:31 115202 CRISLEI.SORRILHA  Homologação - Calculo de validade diferente do calculo de tratamento seriado periodicidade quinzenal
-// 12/05/2009 15:43 114176 EVANDRO.ZEFERINO  Erros Homologação AG 3.3.11 - Proc. Contas
-// 16/04/2009 15:18 112899 PAULO.MELO  autorização
-// 30/12/2008 14:11 107659 Walberti  O sistema não está fechando a transação em alguns casos quando vai validar um evento que gera diária
-// 25/09/2008 10:16 102948 PAULO.MELO  Erro: Alteração de periodicidade do evento seriado x data validade da autorização/evento
-// 18/08/2008 09:41 99163 VICTOR.PETRELLI  Controle de transações
-// 20/06/2008 17:03 98681 DANILO.RAISI  Geração de diárias para o recebedor de despesas hospitalares.
-// 12/06/2008 16:40 98381 WILLIAN.YASSUNAKA  Período de Internação x Data de validade
-// 07/05/2008 21:40 92953 GABRIEL.SILVA  Adequação do Sistema para funcionamento em ADO com Oracle
-// 24/04/2008 19:24 95549 Larini  Versão WEB - Melhoria - Autorização - Diárias e Sessões
-// 24/04/2008 11:35 95899 Junior  Após incluir eventos e salvá-los não temos opção de edição
-// 22/04/2008 08:37 96176 Walberti  Prorrogação de diárias para beneficiário Suspenso
-// 17/04/2008 16:25 92953 LUIZ.GUSTAVO  Adequação do Sistema para funcionamento em ADO com Oracle
-// 16/04/2008 20:05 95287 RAFAEL.ZARPELLON  Adequação do Sistema para funcionamento em ADO com Oracle - Item 3
-// 14/04/2008 14:39 95957 Walberti  Alerta - Ação na central de atendimento - Obs. Autoriz
-// 14/04/2008 08:11 95549 Larini  Versão WEB - Melhoria - Autorização - Diárias e Sessões
-// 01/04/2008 11:52 95338 Mochi  Autorizações Livre Escolha não dá opção de financiamento.
-// 20/03/2008 14:35 93614 Andreia.Hashimoto  Central de Atendimento - Criação de parametro no alerta "Ação na Central de Atendimento" - gancho
-// 27/02/2008 17:54 93879 Marcelo.Barbosa  CLINICA - DEMORA AO GRAVAR AGENDAMENTO
-// 13/02/2008 16:49 93226 RAFAEL.ZARPELLON  Adequação do Sistema para funcionamento em ADO com Oracle - Item 04
-// 04/02/2008 10:59 90282 Larini  Autorização de atendimento (Padrão TISS) - Adequação para Web
-// 18/01/2008 16:00 92248 BRUNO.PENTEADO  Alterações Performance - parte 02
-// 13/11/2007 11:49 89902 Marcelo.Barbosa  Cálculo de data de validade - tratamento seriado - U R G E N T E
-// 29/10/2007 14:41 88872 RICARDO.MATIELLO  PF diferenciada por CID - gancho sms 85123
-// 15/10/2007 11:20 88781 BRUNO.PENTEADO  Problemas na Autorização!
-// 14/09/2007 20:29 87576 WILLIAN.YASSUNAKA  Recompilação do Sistema
-// 10/09/2007 13:34 84962 Walberti  Erro ao alterar quantidade de eventos solicitados
-// 31/08/2007 11:42 86884 RICARDO.VIEIRA  Erros na Homologação do DB2
-// 31/08/2007 11:02 86891 Mochi  Problema samauto ao revalidar evento
-// 27/08/2007 16:18 84907 PAULO.MELO  REN: Ao alterar a quantidade do evento gerado erro nas datas das diarias e prorrogações
-// 22/08/2007 17:31 42527 Mochi  Autorização em Livre Escolha com padrão na busca de preço.
-// 21/08/2007 12:39 86102 PAULO.MELO  Mensagem de trat. seriado impactando no processamento de contas.
-// 13/08/2007 12:00 85764 Marcelo.Barbosa  Não conseguimos validar autorizações odontológicas
-// 08/08/2007 10:36 85665 WILLIAN.YASSUNAKA  Falha Catastrófica ao validar um evento na interface de autorização.
-// 03/08/2007 14:32 76175 WILLIAN.YASSUNAKA  Homologação: Problema com incompatibilidades na autorização - Observar
-// 18/07/2007 12:24 84581 Walberti  Tratamento seriado x Cancelamento Beneficiario - COMPLEMENTO DA SMS 76581
 // 09/07/2007 15:41 78685 Rodrigo.Postai  Lock de Tabelas
 // 06/07/2007 17:36 76581 Mochi  Tratamento seriado x Cancelamento Beneficiario
 // 05/07/2007 17:59 83110 RICARDO.VIEIRA  Problemas na geração de diárias na validação de autorização de internação
@@ -244,6 +190,14 @@ type
 
   PNegBenefPrestador = ^ListaNegacaoBenefPrestador;
   ListaNegacaoBenefPrestador =
+    record
+    Negacao: integer;
+    Complemento: WideString;
+    SamMotivoNegacao: integer;
+  end;
+
+   PNegBenefPrestador = ^ListaNegacaoBenefPrestador;
+  ListaNegacaoBenefPrestador = MINERO
     record
     Negacao: integer;
     Complemento: WideString;
