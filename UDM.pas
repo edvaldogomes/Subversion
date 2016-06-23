@@ -197,7 +197,7 @@ type
   end;
 
    PNegBenefPrestador = ^ListaNegacaoBenefPrestador;
-  ListaNegacaoBenefPrestador = MINEROWISK
+  ListaNegacaoBenefPrestador = mineros
     record
     Negacao: integer;
     Complemento: WideString;
